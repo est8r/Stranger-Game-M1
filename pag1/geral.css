@@ -49,6 +49,8 @@ header {
   border-style: solid;
   border-radius: 30px;
   padding: 10px 20px 10px 20px;
+  font-family: "VT323", monospace;
+  font-size: 16px;
 }
 
 .saiba:hover {
@@ -77,14 +79,17 @@ header {
   display: flex;
 }
 
-.typing h1 {
+.typing p {
   width: 100%;
-  animation: typing 2s steps(9), blink 0.5s step-end infinite alternate;
+  animation: typing 2s steps(30), blink 0.5s step-end infinite alternate;
   white-space: nowrap;
   overflow: hidden;
   border-right: 3px solid;
   font-family: "VT323", monospace;
-  font-size: 46px;
+  font-weight: 400;
+  font-size: 34px;
+  color: white;
+  margin-top: 10px;
 }
 
 @keyframes typing {

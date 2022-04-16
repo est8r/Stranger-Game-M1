@@ -1,0 +1,105 @@
+* {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/39901de8-a9eb-4caf-854b-5d7439b72004/d629niv-9aeef292-3db0-40b7-a49f-21ef4370006a.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzM5OTAxZGU4LWE5ZWItNGNhZi04NTRiLTVkNzQzOWI3MjAwNFwvZDYyOW5pdi05YWVlZjI5Mi0zZGIwLTQwYjctYTQ5Zi0yMWVmNDM3MDAwNmEucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.EaeI_tkUmgF-wbntu6zH_4-QwXLcn937aDRrtNExChw);
+}
+
+header {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  width: 100%;
+  height: 70px;
+  justify-content: space-between;
+}
+
+#resilia {
+  width: 100px;
+  height: 15px;
+  margin-bottom: 0;
+  margin-left: 40px;
+}
+
+#mais {
+  margin-right: 50px;
+  background-color: rgba(36, 36, 36, 0);
+  border: 1px;
+  border-color: rgba(255, 0, 0, 0.837);
+  border-style: solid;
+  border-radius: 30px;
+  padding: 10px 20px 10px 20px;
+  font-family: "VT323", monospace;
+  font-size: 20px;
+}
+
+#mais:hover {
+  background-color: rgb(6, 6, 6);
+  color: white;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+img {
+  width: 550px;
+  height: 260px;
+  margin-bottom: 100px;
+}
+
+#sub {
+  color: yellow;
+  font-weight: 600;
+  font-family: "VT323", monospace;
+  font-size: 28px;
+  margin-bottom: 30px;
+}
+
+#b {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 70px;
+}
+
+#start {
+  color: white;
+  padding: 8px 70px 8px 70px;
+  margin-right: 0;
+  font-size: 44px;
+  background-color: rgba(36, 36, 36, 0);
+  font-family: "VT323", monospace;
+}
+
+#start:hover {
+  font-size: 54px;
+}
+
+footer {
+  display: flex;
+  margin-top: 110px;
+  align-items: center;
+  justify-content: center;
+}
+
+#rodape {
+  color: red;
+  text-align: center;
+  font-family: "VT323", monospace;
+  font-size: 36px;
+  width: 60%;
+  font-weight: 600;
+}
