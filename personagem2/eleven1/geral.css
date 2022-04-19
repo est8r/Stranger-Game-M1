@@ -1,0 +1,163 @@
+* {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(36, 36, 36);
+  flex-direction: column;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding-top: 5px;
+  height: 70px;
+  color: white;
+  justify-content: space-between;
+}
+
+#logo {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  margin-left: 20px;
+  flex-direction: row;
+}
+
+img {
+  width: 50px;
+  height: 62px;
+  margin-right: 10px;
+}
+
+#nome {
+  font-size: 22px;
+  font-family: "VT323", monospace;
+}
+
+#fase {
+  margin-right: 50px;
+  font-family: "VT323", monospace;
+  font-size: 22px;
+}
+
+/*MAIN----------------------------------------------------*/
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  margin-top: 50px;
+  border: 2px;
+  border-radius: 30px;
+  border-color: rgba(191, 0, 255, 0.88);
+  border-style: solid;
+}
+
+#titulo {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  align-items: center;
+}
+
+h1 {
+  padding: 10px 10px 10px 0px;
+  color: white;
+  font-family: "VT323", monospace;
+  font-size: 42px;
+}
+
+#cor {
+  padding-left: 0;
+  color: rgba(191, 0, 255, 0.88);
+  font-family: "VT323", monospace;
+  font-size: 40px;
+}
+
+#questao {
+  width: 90%;
+}
+
+#escolha {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+  width: 90%;
+  margin-bottom: 20px;
+}
+
+.alternativa {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: 100%;
+  padding: 10px 10px 10px 12px;
+  border: 2px;
+  border-radius: 30px;
+  border-color: rgba(191, 0, 255, 0.88);
+  border-style: solid;
+}
+
+.clicar {
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  align-items: center;
+  flex-direction: column;
+}
+
+.enviar {
+  padding: 10px 30px 10px 30px;
+  background-color: rgba(28, 105, 105, 0);
+  border: 2px;
+  border-radius: 10px;
+  border-color: rgba(191, 0, 255, 0.88);
+  border-style: solid;
+  font-family: "VT323", monospace;
+  font-size: 24px;
+  color: white;
+}
+
+#info {
+  font-family: "VT323", monospace;
+  color: rgba(255, 255, 255, 0.841);
+  font-size: 12px;
+  margin-top: 8px;
+}
+
+.enviar:hover {
+  background-color: black;
+}
+
+.letra {
+  color: rgba(191, 0, 255, 0.88);
+  font-weight: 800;
+  font-size: 17px;
+  margin-right: 10px;
+}
+
+p {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-weight: 500;
+  color: white;
+  font-family: "VT323", monospace;
+  font-size: 22px;
+}

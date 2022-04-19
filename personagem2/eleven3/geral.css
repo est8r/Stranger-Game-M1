@@ -35,7 +35,7 @@ header {
 
 img {
   width: 50px;
-  height: 50px;
+  height: 62px;
   margin-right: 10px;
 }
 
@@ -61,7 +61,7 @@ main {
   margin-top: 50px;
   border: 2px;
   border-radius: 30px;
-  border-color: rgba(255, 0, 0, 0.88);
+  border-color: rgba(191, 0, 255, 0.88);
   border-style: solid;
 }
 
@@ -82,7 +82,7 @@ h1 {
 
 #cor {
   padding-left: 0;
-  color: red;
+  color: rgba(191, 0, 255, 0.88);
   font-family: "VT323", monospace;
   font-size: 40px;
 }
@@ -96,8 +96,8 @@ h1 {
   flex-direction: column;
   align-items: center;
   margin-top: 30px;
-  margin-bottom: 20px;
   width: 90%;
+  margin-bottom: 20px;
 }
 
 .alternativa {
@@ -106,11 +106,11 @@ h1 {
   align-items: flex-end;
   margin-top: 30px;
   margin-bottom: 30px;
-  width: 100%;
+  width: 90%;
   padding: 10px 10px 10px 12px;
   border: 2px;
   border-radius: 30px;
-  border-color: rgba(255, 0, 0, 0.88);
+  border-color: rgba(191, 0, 255, 0.88);
   border-style: solid;
 }
 
@@ -127,7 +127,7 @@ h1 {
   background-color: rgba(28, 105, 105, 0);
   border: 2px;
   border-radius: 10px;
-  border-color: rgba(255, 0, 0, 0.88);
+  border-color: rgba(191, 0, 255, 0.88);
   border-style: solid;
   font-family: "VT323", monospace;
   font-size: 24px;
@@ -139,6 +139,7 @@ h1 {
   color: rgba(255, 255, 255, 0.841);
   font-size: 12px;
   margin-top: 8px;
+  margin-bottom: 10px;
 }
 
 .enviar:hover {
@@ -146,7 +147,7 @@ h1 {
 }
 
 .letra {
-  color: red;
+  color: rgba(191, 0, 255, 0.88);
   font-weight: 800;
   font-size: 17px;
   margin-right: 10px;

@@ -1,0 +1,149 @@
+* {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family: "VT323", monospace;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(36, 36, 36);
+  flex-direction: column;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding-top: 5px;
+  height: 70px;
+  color: white;
+  justify-content: space-between;
+}
+
+#logo {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  margin-left: 20px;
+  flex-direction: row;
+}
+
+img {
+  width: 50px;
+  height: 62px;
+  margin-right: 10px;
+}
+
+#nome {
+  font-size: 22px;
+  font-family: "VT323", monospace;
+}
+
+#fase {
+  margin-right: 50px;
+  font-family: "VT323", monospace;
+  font-size: 22px;
+}
+
+/*MAIN-----------------------------------------------------------*/
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  margin-top: 50px;
+  border: 2px;
+  border-radius: 30px;
+  border-color: rgba(191, 0, 255, 0.88);
+  border-style: solid;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+section {
+  width: 90%;
+  flex-direction: row;
+}
+
+h1 {
+  color: white;
+  margin-top: 5px;
+  font-size: 44px;
+}
+
+p {
+  color: white;
+  padding: 10px 0 20px 0;
+  font-size: 24px;
+}
+
+#todos {
+  width: 400px;
+  height: 200px;
+  margin-bottom: 10px;
+}
+
+footer {
+  display: flex;
+  background-color: black;
+  width: 100%;
+  bottom: 0%;
+  margin-top: 70px;
+}
+
+.mais {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 40px;
+}
+
+.outros {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+button {
+  padding: 10px 20px 10px 20px;
+  border-radius: 20px;
+  background-color: rgba(0, 255, 255, 0);
+  color: white;
+  border: 2px;
+  border-color: rgba(191, 0, 255, 0.88);
+  border-style: solid;
+  margin-left: 20px;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: rgb(35, 35, 35);
+}
+
+#jogos {
+  display: flex;
+  flex-direction: row;
+}
+
+body::-webkit-scrollbar {
+  width: 12px;
+}
+
+body::-webkit-scrollbar-track {
+  background: black;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: rgba(191, 0, 255, 0.88);
+  border-radius: 20px;
+  border: 3px solid black;
+}
