@@ -90,9 +90,11 @@ img {
 
 footer {
   display: flex;
-  margin-top: 110px;
   align-items: center;
   justify-content: center;
+  position: absolute;
+  bottom: 0;
+  padding-bottom: 30px;
 }
 
 #rodape {
@@ -102,4 +104,91 @@ footer {
   font-size: 36px;
   width: 60%;
   font-weight: 600;
+}
+
+/*MEDIA QUERIES*/
+
+@media (max-width: 450px) {
+  * {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "VT323", monospace;
+  }
+
+  body {
+    width: 100%;
+    height: 100%;
+  }
+
+  header {
+    align-items: center;
+    padding-top: 15px;
+  }
+
+  #resilia {
+    width: 68px;
+    height: 10px;
+    margin-bottom: 0;
+    margin-top: 0;
+    margin-left: 40px;
+  }
+
+  #mais {
+    margin-right: 40px;
+    background-color: rgba(36, 36, 36, 0);
+    border: 1px;
+    border-color: rgba(255, 0, 0, 0.837);
+    border-style: solid;
+    border-radius: 30px;
+    padding: 5px 10px 5px 10px;
+    font-family: "VT323", monospace;
+    font-size: 15px;
+  }
+
+  #mais:active {
+    background-color: rgb(6, 6, 6);
+    color: white;
+  }
+
+  main {
+    margin-top: 100px;
+  }
+
+  img {
+    width: 260px;
+    height: 110px;
+    margin-bottom: 70px;
+  }
+
+  #sub {
+    color: yellow;
+    font-weight: 600;
+    font-family: "VT323", monospace;
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+
+  #start:active {
+    font-size: 54px;
+    color: yellow;
+  }
+
+  footer {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+    position: absolute;
+    bottom: 0;
+  }
+
+  #rodape {
+    color: red;
+    text-align: center;
+    font-family: "VT323", monospace;
+    font-size: 18px;
+    width: 80%;
+    font-weight: 600;
+  }
 }

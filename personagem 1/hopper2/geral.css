@@ -4,7 +4,7 @@
   padding: 0;
   text-decoration: none;
   box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
+  font-family: "VT323", monospace;
 }
 
 body {
@@ -160,4 +160,57 @@ p {
   color: white;
   font-family: "VT323", monospace;
   font-size: 22px;
+}
+
+/*MEDIA QUERIES*/
+
+@media (max-width: 450px) {
+  * {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "VT323", monospace;
+  }
+
+  main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 95%;
+    margin-top: 50px;
+    border: 2px;
+    border-radius: 30px;
+    border-color: rgba(255, 0, 0, 0.88);
+    border-style: solid;
+  }
+
+  #titulo {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    align-items: center;
+  }
+
+  h1 {
+    color: white;
+    font-family: "VT323", monospace;
+    font-size: 33px;
+  }
+
+  .alternativa {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 100%;
+    padding: 10px 10px 10px 12px;
+    border: 2px;
+    border-radius: 30px;
+    border-color: rgba(255, 0, 0, 0.88);
+    border-style: solid;
+  }
 }

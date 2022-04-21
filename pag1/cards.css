@@ -33,7 +33,7 @@
 
 .cima1 {
   display: flex;
-  background-color: #e86832;
+  background-color: #557b6f;
   flex-direction: row;
   height: 60%;
   padding: 20px;
@@ -61,7 +61,7 @@
   width: 125px;
 }
 
-/* PERSONAGEM 2 --------------------- */
+/* PERSONAGEM 2 ---------------------*/
 .personagem2 {
   display: flex;
   flex-direction: column;
@@ -78,7 +78,7 @@
 
 .cima2 {
   display: flex;
-  background-color: palegoldenrod;
+  background-color: #813942;
   flex-direction: row;
   height: 60%;
   padding: 20px;
@@ -117,7 +117,7 @@
 
 .cima3 {
   display: flex;
-  background-color: #64893f;
+  background-color: #4d518c;
   flex-direction: row;
   height: 60%;
   padding: 20px;
@@ -144,7 +144,7 @@
   width: 125px;
 }
 
-/* GERAIS -------------------------------- */
+/* GERAIS --------------------------------*/
 
 section {
   display: flex;
@@ -190,4 +190,209 @@ section {
 h2 {
   font-family: "Press Start 2P", cursive;
   font-size: 16px;
+}
+
+@media (max-width: 450px) {
+  * {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "VT323", monospace;
+  }
+
+  #personagens {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+  }
+
+  /* PERSONAGEM 1 ---------------------------------*/
+
+  .personagem1 {
+    display: flex;
+    flex-direction: column;
+    color: black;
+    height: 250px;
+    width: 200px;
+    margin: 0;
+    margin-bottom: 20px;
+  }
+
+  .personagem1:active {
+    width: 190px;
+    height: 230px;
+  }
+
+  .cima1 {
+    display: flex;
+    background-color: #e86832;
+    flex-direction: row;
+    height: 60%;
+    padding: 20px;
+    border-radius: 20px 20px 0 0;
+    margin: 0;
+  }
+
+  .baixo1 {
+    display: flex;
+    background-color: white;
+    height: 40%;
+    border-radius: 0 0 20px 20px;
+    margin: 0;
+  }
+
+  section {
+    width: 100%;
+    margin: 0;
+    padding-left: 5px;
+  }
+
+  #hopper {
+    width: 70px;
+    position: absolute;
+    align-items: flex-end;
+    justify-self: end;
+    margin-left: 10px;
+    margin-top: 8px;
+  }
+
+  /*PERSONAGEM 2 ----------------------*/
+
+  .personagem2 {
+    display: flex;
+    flex-direction: column;
+    height: 250px;
+    width: 200px;
+    color: black;
+    margin: 0;
+    margin-bottom: 20px;
+  }
+
+  .personagem2:active {
+    width: 190px;
+    height: 230px;
+    margin: 0;
+  }
+
+  .cima2 {
+    display: flex;
+    background-color: palegoldenrod;
+    flex-direction: row;
+    height: 60%;
+    padding: 20px;
+    border-radius: 20px 20px 0 0;
+    margin: 0;
+  }
+
+  #eleven {
+    width: 70px;
+    position: absolute;
+    align-items: flex-end;
+    justify-self: end;
+    margin-left: 10px;
+    margin-top: 10px;
+  }
+
+  #eleven:hover {
+    width: 125px;
+    margin: 0;
+  }
+
+  /* PERSONAGEM 3 --------------------------------*/
+
+  .personagem3 {
+    display: flex;
+    flex-direction: column;
+    height: 250px;
+    width: 200px;
+    color: black;
+    margin: 0;
+    margin-bottom: 20px;
+  }
+
+  .personagem3:active {
+    width: 190px;
+    height: 230px;
+    margin: 0;
+  }
+
+  .cima3 {
+    display: flex;
+    background-color: #64893f;
+    flex-direction: row;
+    height: 60%;
+    padding: 20px;
+    border-radius: 20px 20px 0 0;
+    margin: 0;
+  }
+
+  .imagem {
+    padding: 0;
+    align-items: flex-start;
+    justify-content: start;
+    margin: 0;
+  }
+
+  #dustin {
+    width: 70px;
+    position: absolute;
+    align-items: flex-end;
+    justify-self: end;
+    margin-left: 10px;
+    margin-top: 5px;
+  }
+
+  #dustin:hover {
+    width: 125px;
+    margin: 0;
+  }
+
+  .titulo {
+    font-weight: 700;
+    font-size: 12px;
+    font-family: "VT323", monospace;
+    margin: 0;
+  }
+
+  .paragrafo {
+    font-size: 10px;
+    font-family: "VT323", monospace;
+    margin: 0;
+  }
+
+  .esquerda {
+    padding-top: 12px;
+  }
+
+  .direita {
+    padding-top: 12px;
+  }
+
+  .infor {
+    padding-top: 10px;
+    padding-left: 6px;
+    margin: 0;
+  }
+
+  h2 {
+    font-family: "Press Start 2P", cursive;
+    font-size: 10px;
+    margin: 0;
+  }
+
+  .categoria {
+    background-color: rgba(255, 255, 255, 0.467);
+    margin-top: 5px;
+    border-radius: 30px;
+    width: fit-content;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 9px;
+    font-family: "VT323", monospace;
+  }
 }
