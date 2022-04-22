@@ -10,7 +10,8 @@
 body {
   display: flex;
   flex-direction: column;
-  background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/39901de8-a9eb-4caf-854b-5d7439b72004/d629niv-9aeef292-3db0-40b7-a49f-21ef4370006a.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzM5OTAxZGU4LWE5ZWItNGNhZi04NTRiLTVkNzQzOWI3MjAwNFwvZDYyOW5pdi05YWVlZjI5Mi0zZGIwLTQwYjctYTQ5Zi0yMWVmNDM3MDAwNmEucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.EaeI_tkUmgF-wbntu6zH_4-QwXLcn937aDRrtNExChw);
+  background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/1400/d8c23e60094321.5a82d03ed6061.gif);
+  background-size: cover;
 }
 
 header {
@@ -56,6 +57,7 @@ main {
 img {
   width: 550px;
   height: 260px;
+  margin-top: 10px;
   margin-bottom: 100px;
 }
 
@@ -118,8 +120,10 @@ footer {
   }
 
   body {
+    height: 100vh;
     width: 100%;
-    height: 100%;
+    background-repeat: no-repeat;
+    background-position-x: -300px;
   }
 
   header {

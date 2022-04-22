@@ -226,15 +226,22 @@ h2 {
   .personagem1:active {
     width: 190px;
     height: 230px;
+    box-shadow: 0 0px 0px 0px;
+  }
+
+  .personagem1:hover {
+    width: 190px;
+    height: 230px;
+    box-shadow: 0 0px 0px 0px;
   }
 
   .cima1 {
     display: flex;
-    background-color: #e86832;
     flex-direction: row;
     height: 60%;
     padding: 20px;
     border-radius: 20px 20px 0 0;
+    background-color: #557b6f;
     margin: 0;
   }
 
@@ -276,13 +283,19 @@ h2 {
   .personagem2:active {
     width: 190px;
     height: 230px;
-    margin: 0;
+    box-shadow: 0 0px 0px 0px;
+  }
+
+  .personagem2:hover {
+    width: 190px;
+    height: 230px;
+    box-shadow: 0 0px 0px 0px;
   }
 
   .cima2 {
     display: flex;
-    background-color: palegoldenrod;
     flex-direction: row;
+    background-color: #813942;
     height: 60%;
     padding: 20px;
     border-radius: 20px 20px 0 0;
@@ -318,16 +331,22 @@ h2 {
   .personagem3:active {
     width: 190px;
     height: 230px;
-    margin: 0;
+    box-shadow: 0 0px 0px 0px;
+  }
+
+  .personagem3:hover {
+    width: 190px;
+    height: 230px;
+    box-shadow: 0 0px 0px 0px;
   }
 
   .cima3 {
     display: flex;
-    background-color: #64893f;
     flex-direction: row;
     height: 60%;
     padding: 20px;
     border-radius: 20px 20px 0 0;
+    background-color: #4d518c;
     margin: 0;
   }
 
