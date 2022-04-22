@@ -4,17 +4,14 @@ function validaResposta() {
 
   while (tentativas < 3) {
     var resposta = parseInt(prompt("Sua Resposta"));
-
     if (certo == resposta) {
       alert("Voce acertou! Clique em OK para ir para a próxima fase");
-      window.location.href =
-        "file:///C:/Users/ester/Desktop/finalDeModulo1/personagem2/eleven3/index.html";
-      break;
+      window.open("../eleven3/index.html");
+      window.close();
     } else {
       alert("Tente novamente.");
       tentativas++;
     }
   }
-  window.location.href =
-    "file:///C:/Users/ester/Desktop/finalDeModulo1/gameover/index.html";
+  window.location.replace("../../gameover/index.html");
 }

@@ -3,13 +3,11 @@ function validaResposta(resposta) {
   var certo = "a";
   if (resposta == certo) {
     alert("Voce GANHOU!");
-    window.location.href =
-      "file:///C:/Users/ester/Desktop/finalDeModulo1/personagem%201/hopper4/index.html";
+    window.location.href = "../hopper4/index.html";
   } else {
     alert(
       "Perdido, Hopper entra no carro e leva o bebe devolta á fazenda de seu conhecido a fim de deixar a criança por lá e passar a responsabilidade, mas ao chegar e notar que a porta do fazendeiro estava entreaberta, se depara com um grupo de criaturas extraterrestres horrendas que mataram a familia e agora o faria sua próxima vitima."
     );
-    window.location.href =
-      "file:///C:/Users/ester/Desktop/finalDeModulo1/gameover/index.html";
+    window.location.replace("../../gameover/index.html");
   }
 }
